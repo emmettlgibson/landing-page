@@ -1,0 +1,173 @@
+body {
+    font-family: 'Roboto',sans-serif;
+    margin:0;
+    padding:0;
+}
+
+.header {
+    color: #fff;
+    background-color: #1f2937;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.header .logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header ul {
+    display: flex;
+    color: lightgrey;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 300;
+    gap: 16px;
+}
+
+
+.container {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.one {
+    background-color: #1f2937;
+    color: #fff;
+    display: flex;
+    padding:32px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.one button {
+    color: white;
+    border: none;
+    padding: 4px 24px;
+    background-color: #3882f6  ;
+    border-radius: 4px;
+}
+
+.one .upper-text{
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.body, .text, .upper-text {
+    margin-bottom: 8px;
+
+}
+
+
+.one img {
+    vertical-align: middle;
+    min-width: 400px;
+    margin-right: 60px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.two .information {
+    font-size: 36px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.box {
+    text-align: center;
+    width: 200px;
+    padding: 32px;
+}
+
+.three {
+    background-color: #e5e7eb;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial {
+    color: #1f2037;
+    padding: 16px;
+    font-size: 36px;
+    width: 800px;
+}
+
+.thor {
+    align-self: flex-end;
+    
+}
+
+
+.four {
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four .container{
+    width: 800px;
+    background-color: #3882f6;
+    padding: 36px 60px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.four .call {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.four .text {
+margin-top: 4px;
+color: #e0dede;
+font-size: 14px;
+font-weight: 100;
+}
+
+.four button {
+    color: #fff;
+    padding: 4px 24px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background-color: #3882f6;
+}
+
+.footer {
+    background-color: #1f2037;
+    color: #dedede;
+    font-size: 12px;
+    font-weight: 100;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
